@@ -1,0 +1,35 @@
+.form {
+  position: relative;
+}
+
+.form .bi-search {
+  position: absolute;
+  font-size: 1.2rem;
+  top: 5px;
+  left: 15px;
+  color: #9ca3af;
+}
+
+.form-control {
+  text-indent: 33px;
+}
+
+.container-coin {
+  border: 0.5px solid #e3ebf4;
+  /* blue shadow */
+
+  box-shadow: 0px 4px 8px rgba(0, 148, 255, 0.25);
+  border-radius: 10px;
+}
+
+.table-head {
+  background-color: var(--color-primary);
+}
+
+/* Media query for dekstop */
+@media (min-width: 992px) {
+  .coin-list {
+    background-color: #f3f7fb;
+    padding: 52px 126px;
+  }
+}
